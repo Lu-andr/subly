@@ -1,0 +1,26 @@
+name: subly_sample
+description: Android and iOS host app for the Subly package.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  subly:
+    path: ..
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  shared_preferences: ^2.5.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/banners/cabinet-eco-finance-v1.png
+    - assets/banners/form-eco-zero-v1.png
+    - assets/banners/offers-eco-shield-v1.png
